@@ -11,13 +11,34 @@ from .digest import write_outputs
 from .discover import discover_index_sources, discover_search
 from .extract import RobotsCache, extract_candidate
 from .llm import analyse_article, analyse_digest
-from .models import AnalysedArticle
+from .models import AnalysedArticle, Article
 from .prioritise import final_rank_score, normalise_hashtags, priority_score
 from .score import heuristic_score
 from .storage import Store
 from .utils import utcnow
 
 app = typer.Typer(add_completion=False, help="Smart Data & AI news intelligence radar")
+MONTHLY_MIN_ARTICLES = 10
+
+
+def select_candidates_for_analysis(
+    scored_articles: list[Article],
+    *,
+    mode: str,
+    min_score: float,
+    candidate_limit: int,
+) -> list[Article]:
+    """Select relevant candidates while preserving a 10-item monthly floor.
+
+    Monthly briefings may use the strongest below-threshold items when fewer
+    than ten articles clear the normal heuristic threshold. The items remain
+    ranked by relevance and still undergo full LLM analysis.
+    """
+    ranked = dedupe_articles(scored_articles)
+    selected = [article for article in ranked if article.heuristic_score >= min_score]
+    if mode == "monthly" and len(selected) < MONTHLY_MIN_ARTICLES:
+        selected = ranked[:MONTHLY_MIN_ARTICLES]
+    return selected[:candidate_limit]
 
 
 @app.command()
@@ -25,7 +46,7 @@ def run(
     mode: str = typer.Option("weekly", help="Weekly or monthly intelligence mode"),
     days: int | None = typer.Option(None, help="Override recency window; defaults to 7 weekly / 30 monthly"),
     candidate_limit: int = typer.Option(int(os.getenv("RADAR_CANDIDATE_LIMIT", "50"))),
-    analyse_limit: int | None = typer.Option(None, help="Override LLM analysis limit; defaults to 10 weekly / 16 monthly"),
+    analyse_limit: int | None = typer.Option(None, help="Override successful LLM analyses; defaults to 8 weekly / 12 monthly"),
     min_score: float = typer.Option(float(os.getenv("RADAR_MIN_SCORE", "35")), help="Minimum heuristic score before LLM analysis"),
     backend: str = typer.Option(os.getenv("SEARCH_BACKEND", "google_news")),
     db: Path = typer.Option(Path("radar.db")),
@@ -40,6 +61,10 @@ def run(
     if analyse_limit is None:
         env_limit = os.getenv("RADAR_ANALYSE_LIMIT")
         analyse_limit = int(env_limit) if env_limit else (8 if mode == "weekly" else 12)
+    if mode == "monthly" and candidate_limit < MONTHLY_MIN_ARTICLES:
+        raise typer.BadParameter(f"Monthly candidate limit must be at least {MONTHLY_MIN_ARTICLES}")
+    if mode == "monthly" and analyse_limit < MONTHLY_MIN_ARTICLES:
+        raise typer.BadParameter(f"Monthly analysis limit must be at least {MONTHLY_MIN_ARTICLES}")
 
     typer.echo(f"Mode: {mode} · window: {days} days · discovery backend: {backend}")
 
@@ -53,7 +78,7 @@ def run(
     typer.echo(f"Discovered {len(candidates)} unique candidates")
 
     robots = RobotsCache()
-    articles = []
+    scored_articles = []
     cutoff = utcnow() - timedelta(days=days)
     for candidate in candidates:
         try:
@@ -69,10 +94,14 @@ def run(
         score, matched = heuristic_score(article, profile, sources)
         article.heuristic_score = score
         article.matched_terms = matched
-        if score >= min_score:
-            articles.append(article)
+        scored_articles.append(article)
 
-    articles = dedupe_articles(articles)[:candidate_limit]
+    articles = select_candidates_for_analysis(
+        scored_articles,
+        mode=mode,
+        min_score=min_score,
+        candidate_limit=candidate_limit,
+    )
     typer.echo(f"{len(articles)} candidates passed heuristic relevance")
 
     store = Store(db)
@@ -85,7 +114,8 @@ def run(
         return
 
     analysed: list[AnalysedArticle] = []
-    for article in articles[:analyse_limit]:
+    attempt_limit = analyse_limit if mode == "weekly" else max(analyse_limit, MONTHLY_MIN_ARTICLES * 2)
+    for article in articles[:attempt_limit]:
         try:
             analysis = analyse_article(article, profile, mode=mode)
             analysis.hashtags = normalise_hashtags(analysis, article.matched_terms)
@@ -107,8 +137,17 @@ def run(
         )
         analysed.append(item)
         store.save_analysis(item)
+        if len(analysed) >= analyse_limit:
+            break
 
     analysed.sort(key=lambda x: x.final_score, reverse=True)
+
+    if mode == "monthly" and len(analysed) < MONTHLY_MIN_ARTICLES:
+        store.close()
+        raise RuntimeError(
+            f"Monthly briefing requires at least {MONTHLY_MIN_ARTICLES} successfully analysed articles; "
+            f"only {len(analysed)} were available. No monthly output was published."
+        )
 
     synthesis = None
     if analysed and not no_synthesis:
