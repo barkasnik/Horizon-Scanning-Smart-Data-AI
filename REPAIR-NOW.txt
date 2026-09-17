@@ -1,0 +1,8 @@
+ONE-TIME REPAIR FOR THE EXISTING GITHUB REPOSITORY
+
+1. In GitHub open: Code -> Add file -> Create new file.
+2. In the filename box type exactly: .github/workflows/radar.yml
+3. Paste the contents of the supplied radar-self-healing.yml file and commit to main.
+4. The workflow is configured to run automatically on that first commit. If it does not, open Actions -> Smart Data AI Radar -> Run workflow -> weekly.
+
+The first successful run repairs the flattened repository structure, runs tests, runs the weekly scanner, creates output/weekly-latest.json, and commits the repaired project back to the same repository.
