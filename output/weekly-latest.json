@@ -1,102 +1,100 @@
 {
   "mode": "weekly",
-  "generated_at": "2026-09-28T15:51:22.181033+00:00",
-  "synthesis": {
-    "mode": "weekly",
-    "headline": "Smart Data + AI: Key Developments and Policy Gaps",
-    "executive_summary": "This week's developments in Smart Data and AI highlight the need for a comprehensive approach to governance, security, and interoperability. The research into governance models for Smart Data underscores the importance of a cross-economy framework that balances sector-specific implementation with centralized oversight, ensuring coherence and interoperability across the Smart Data economy. The article on agent API security in financial institutions emphasizes the need for consistent identity and access management across multiple teams and domains, which is a significant concern for the UK Smart Data programme. This highlights the importance of considering the security of AI agents in financial institutions as a key concern for the programme's goals of enabling secure and trusted data sharing. The policy gaps identified in this week's developments include the need for a more robust framework for AI agent security and the importance of monitoring the evolving landscape of AI and Smart Data to ensure compliance with emerging regulations and standards. The policy opportunities identified include the potential for the UK Smart Data programme to lead the way in developing best practices for AI agent security and interoperability, and the need for ongoing monitoring and evaluation of the programme's progress towards its goals. The policy threats identified include the potential for AI agent security breaches to compromise the integrity of AI-enabled services and the need for the UK Smart Data programme to adapt to emerging regulations and standards to ensure compliance. The policy tensions identified include the need for a balance between the programme's goals of enabling secure and trusted data sharing and the potential for AI agent security breaches to compromise the integrity of AI-enabled services. The policy items requiring monitoring identified include the ongoing development of AI agent security standards and the need for the UK Smart Data programme to adapt to emerging regulations and standards to ensure compliance. The policy questions for policy teams should be practical questions for evidence or implementation, not political advocacy, such as: 'What are the key challenges facing the UK Smart Data programme in implementing a cross-economy framework for AI agent security and interoperability?' and 'How can the UK Smart Data programme ensure compliance with emerging regulations and standards to support its goals of enabling secure and trusted data sharing?'",
-    "ranked_priorities": [],
-    "emerging_patterns": [],
-    "ai_smart_data_developments": [],
-    "wider_smart_data_developments": [],
-    "policy_gaps": [
-      "A more robust framework for AI agent security",
-      "Ongoing monitoring and evaluation of the UK Smart Data programme's progress towards its goals of enabling secure and trusted data sharing"
-    ],
-    "opportunities": [
-      "Leading the way in developing best practices for AI agent security and interoperability",
-      "Adapting to emerging regulations and standards to ensure compliance"
-    ],
-    "threats": [
-      "AI agent security breaches compromising the integrity of AI-enabled services",
-      "Adapting to emerging regulations and standards to ensure compliance"
-    ],
-    "tensions_to_watch": [
-      "Balancing the programme's goals of enabling secure and trusted data sharing with the potential for AI agent security breaches to compromise the integrity of AI-enabled services"
-    ],
-    "monitoring_list": [
-      "The ongoing development of AI agent security standards",
-      "Emerging regulations and standards to ensure compliance"
-    ],
-    "questions_for_policy_teams": [
-      "What are the key challenges facing the UK Smart Data programme in implementing a cross-economy framework for AI agent security and interoperability?",
-      "How can the UK Smart Data programme ensure compliance with emerging regulations and standards to support its goals of enabling secure and trusted data sharing?"
-    ],
-    "confidence": "high"
-  },
+  "generated_at": "2026-10-05T16:29:35.354818+00:00",
+  "synthesis": null,
   "articles": [
     {
       "article": {
-        "url": "https://www.gov.uk/government/publications/research-into-governance-models-for-smart-data",
-        "canonical_url": "https://www.gov.uk/government/publications/research-into-governance-models-for-smart-data",
-        "title": "Research into governance models for Smart Data",
+        "url": "https://www.gov.uk/government/collections/creating-a-smart-data-economy",
+        "canonical_url": "https://www.gov.uk/government/collections/creating-a-smart-data-economy",
+        "title": "Creating a Smart Data economy",
         "source_name": "UK Smart Data collection",
         "author": "",
-        "published_at": "2026-01-26T00:00:00Z",
-        "discovered_at": "2026-09-28T15:24:39.239386Z",
+        "published_at": "2024-05-09T00:00:00Z",
+        "discovered_at": "2026-10-05T15:59:08.294773Z",
         "discovery_method": "index:official_collection",
-        "heuristic_score": 84.0,
+        "heuristic_score": 82.0,
         "matched_terms": [
           "smart data",
           "trust_identity",
           "interoperability",
-          "governance",
           "sectors",
+          "wider_government",
           "source:gov.uk",
           "recent"
         ]
       },
       "analysis": {
-        "relevance_score": 84,
+        "relevance_score": 82,
         "relevance_tier": "medium",
         "primary_category": "smart_data",
-        "bottom_line": "The research into governance models for Smart Data highlights the need for a cross-economy framework that balances sector-specific implementation with centralized oversight, ensuring coherence and interoperability across the Smart Data economy.",
-        "summary": "The research into governance models for Smart Data, commissioned by the Department for Business and Trade, has concluded with two model recommendations: federated governance and centrally-led governance. Federated governance allows sectors to progress at different speeds while ensuring coherence and interoperability across the Smart Data economy, while centrally-led governance aims to reduce duplication, improve consistency, and strengthen cross-sector data sharing. The research also clarifies that Open Banking Limited is the current implementation body for Open Banking, with the identity of the future entity yet to be decided.",
-        "why_it_matters": "The research underscores the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors.",
-        "government_smart_data_perspective": "The research into governance models for Smart Data highlights the need for a cross-economy framework that balances sector-specific implementation with centralized oversight, ensuring coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors.",
-        "smart_data_ai_link": "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy.",
+        "bottom_line": "The UK government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy. This will involve creating interoperable schemes beyond retail banking, empowering consumers and small businesses, and introducing new areas such as digital verification services. The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+        "summary": "The UK government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy. This will involve creating interoperable schemes beyond retail banking, empowering consumers and small businesses, and introducing new areas such as digital verification services. The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+        "why_it_matters": "The UK government is recognizing the importance of Smart Data and its potential to drive growth and innovation. This initiative will enable a more efficient, competitive, and innovative economy, and will empower consumers and small businesses. The Data (Use and Access) Bill will provide the framework for future smart data regulations, ensuring that data sharing is secure and transparent.",
+        "government_smart_data_perspective": "The UK government is recognizing the importance of Smart Data and its potential to drive growth and innovation. This initiative will enable a more efficient, competitive, and innovative economy, and will empower consumers and small businesses. The Data (Use and Access) Bill will provide the framework for future smart data regulations, ensuring that data sharing is secure and transparent.",
+        "smart_data_ai_link": "The UK government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy. This will involve creating interoperable schemes beyond retail banking, empowering consumers and small businesses, and introducing new areas such as digital verification services. The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
         "pestle": {
           "political": [
-            "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy."
+            "The government is recognizing the importance of Smart Data and its potential to drive growth and innovation.",
+            "The government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
+            "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+            "The government is promoting the use of Smart Data to create efficiencies, tailor products and services, improve decision-making, and empower customers to make better use of data that belongs to them."
           ],
           "economic": [
-            "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy."
+            "The government is recognizing the importance of Smart Data and its potential to drive growth and innovation.",
+            "The government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
+            "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+            "The government is promoting the use of Smart Data to create efficiencies, tailor products and services, improve decision-making, and empower customers to make better use of data that belongs to them."
           ],
           "social": [
-            "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy."
+            "The government is recognizing the importance of Smart Data and its potential to drive growth and innovation.",
+            "The government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
+            "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+            "The government is promoting the use of Smart Data to create efficiencies, tailor products and services, improve decision-making, and empower customers to make better use of data that belongs to them."
           ],
           "technological": [
-            "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy."
+            "The government is recognizing the importance of Smart Data and its potential to drive growth and innovation.",
+            "The government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
+            "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+            "The government is promoting the use of Smart Data to create efficiencies, tailor products and services, improve decision-making, and empower customers to make better use of data that belongs to them."
           ],
           "legal": [
-            "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy."
+            "The government is recognizing the importance of Smart Data and its potential to drive growth and innovation.",
+            "The government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
+            "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+            "The government is promoting the use of Smart Data to create efficiencies, tailor products and services, improve decision-making, and empower customers to make better use of data that belongs to them."
           ],
           "environmental": [
-            "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy."
+            "The government is recognizing the importance of Smart Data and its potential to drive growth and innovation.",
+            "The government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
+            "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+            "The government is promoting the use of Smart Data to create efficiencies, tailor products and services, improve decision-making, and empower customers to make better use of data that belongs to them."
           ]
         },
         "swot": {
           "strengths": [
-            "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy."
+            "The government is recognizing the importance of Smart Data and its potential to drive growth and innovation.",
+            "The government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
+            "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+            "The government is promoting the use of Smart Data to create efficiencies, tailor products and services, improve decision-making, and empower customers to make better use of data that belongs to them."
           ],
           "weaknesses": [
-            "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy."
+            "The government is recognizing the importance of Smart Data and its potential to drive growth and innovation.",
+            "The government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
+            "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+            "The government is promoting the use of Smart Data to create efficiencies, tailor products and services, improve decision-making, and empower customers to make better use of data that belongs to them."
           ],
           "opportunities": [
-            "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy."
+            "The government is recognizing the importance of Smart Data and its potential to drive growth and innovation.",
+            "The government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
+            "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+            "The government is promoting the use of Smart Data to create efficiencies, tailor products and services, improve decision-making, and empower customers to make better use of data that belongs to them."
           ],
           "threats": [
-            "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy."
+            "The government is recognizing the importance of Smart Data and its potential to drive growth and innovation.",
+            "The government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
+            "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
+            "The government is promoting the use of Smart Data to create efficiencies, tailor products and services, improve decision-making, and empower customers to make better use of data that belongs to them."
           ]
         },
         "priority": {
@@ -110,29 +108,32 @@
           "implementation_risk": 2,
           "novelty": 5,
           "evidence_strength": 5,
-          "rationale": "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors."
+          "rationale": "The UK government is recognizing the importance of Smart Data and its potential to drive growth and innovation. This initiative will enable a more efficient, competitive, and innovative economy, and will empower consumers and small businesses. The Data (Use and Access) Bill will provide the framework for future smart data regulations, ensuring that data sharing is secure and transparent."
         },
         "policy_or_market_implications": [
-          "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors."
+          "The UK government is recognizing the importance of Smart Data and its potential to drive growth and innovation. This initiative will enable a more efficient, competitive, and innovative economy, and will empower consumers and small businesses. The Data (Use and Access) Bill will provide the framework for future smart data regulations, ensuring that data sharing is secure and transparent."
         ],
         "key_claims": [
           {
-            "claim": "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors.",
+            "claim": "The UK government is launching a Smart Data economy initiative to harness the power of data sharing and enable a more efficient, competitive, and innovative economy.",
             "claim_type": "source_claim",
-            "evidence_note": "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors."
+            "evidence_note": ""
           },
           {
-            "claim": "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors.",
+            "claim": "The Data (Use and Access) Bill will provide the framework for future smart data regulations.",
             "claim_type": "source_claim",
-            "evidence_note": "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors."
+            "evidence_note": ""
           }
         ],
-        "source_perspective": "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors.",
+        "source_perspective": "The UK government is recognizing the importance of Smart Data and its potential to drive growth and innovation. This initiative will enable a more efficient, competitive, and innovative economy, and will empower consumers and small businesses. The Data (Use and Access) Bill will provide the framework for future smart data regulations, ensuring that data sharing is secure and transparent.",
         "tensions_or_tradeoffs": [
-          "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors."
+          "The UK government is recognizing the importance of Smart Data and its potential to drive growth and innovation. This initiative will enable a more efficient, competitive, and innovative economy, and will empower consumers and small businesses. The Data (Use and Access) Bill will provide the framework for future smart data regulations, ensuring that data sharing is secure and transparent."
         ],
         "follow_up_questions": [
-          "The research into governance models for Smart Data is a significant development for the Smart Data programme, as it provides insights into the future of Smart Data governance and its impact on various sectors. The research also highlights the importance of a cross-economy framework for Smart Data governance, balancing sector-specific implementation with centralized oversight to ensure coherence and interoperability across the Smart Data economy. This framework is crucial for the future of Smart Data and its impact on various sectors."
+          "What are the specific goals and objectives of the Smart Data economy initiative?",
+          "How will the Data (Use and Access) Bill impact the implementation of future smart data regulations?",
+          "What are the potential risks and challenges of implementing the Smart Data economy initiative?",
+          "How will the initiative impact the wider data/AI ecosystem and the UK's position in the global Smart Data economy?"
         ],
         "hashtags": [
           "#Opportunity",
@@ -141,6 +142,7 @@
           "#Threat"
         ],
         "tags": [
+          "#SmartData",
           "#AIxSmartData",
           "#PolicyGap",
           "#Opportunity",
@@ -168,8 +170,187 @@
         ],
         "confidence": "high"
       },
-      "final_score": 84.39,
+      "final_score": 83.69,
       "priority_score": 84.6,
+      "mode": "weekly"
+    },
+    {
+      "article": {
+        "url": "https://www.gov.uk/government/publications/smart-data-strategy",
+        "canonical_url": "https://www.gov.uk/government/publications/smart-data-strategy",
+        "title": "Smart Data Strategy",
+        "source_name": "UK Smart Data collection",
+        "author": "",
+        "published_at": "2026-03-26T00:00:00Z",
+        "discovered_at": "2026-10-05T15:59:11.386531Z",
+        "discovery_method": "index:official_collection",
+        "heuristic_score": 100.0,
+        "matched_terms": [
+          "smart data",
+          "AI",
+          "AI + Smart Data intersection",
+          "wider_government",
+          "source:gov.uk",
+          "recent"
+        ]
+      },
+      "analysis": {
+        "relevance_score": 100,
+        "relevance_tier": "high",
+        "primary_category": "Smart Data",
+        "bottom_line": "The UK Smart Data Strategy outlines a long-term vision for smart data and sets out government actions to unlock growth, competition, and innovation through secure, trusted data sharing across the economy. This strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+        "summary": "The UK Smart Data Strategy outlines a long-term vision for smart data and sets out government actions to unlock growth, competition, and innovation through secure, trusted data sharing across the economy. This strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+        "why_it_matters": "The UK Smart Data Strategy is a significant development that sets out government actions to unlock growth, competition, and innovation through secure, trusted data sharing across the economy. This strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+        "government_smart_data_perspective": "The UK Smart Data Strategy is a significant development that sets out government actions to unlock growth, competition, and innovation through secure, trusted data sharing across the economy. This strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+        "smart_data_ai_link": "The UK Smart Data Strategy is a significant development that sets out government actions to unlock growth, competition, and innovation through secure, trusted data sharing across the economy. This strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+        "pestle": {
+          "political": [
+            "The strategy aligns with the government's cross-government priorities and institutional ownership of smart data initiatives.",
+            "The strategy is expected to have a positive impact on growth, competition, and innovation in the UK economy.",
+            "The strategy will work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+          ],
+          "economic": [
+            "The strategy will unlock growth, competition, and innovation in the UK economy.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+          ],
+          "social": [
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+          ],
+          "technological": [
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+          ],
+          "legal": [
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+          ],
+          "environmental": [
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+          ]
+        },
+        "swot": {
+          "strengths": [
+            "The strategy aligns with the government's cross-government priorities and institutional ownership of smart data initiatives.",
+            "The strategy is expected to have a positive impact on growth, competition, and innovation in the UK economy.",
+            "The strategy will work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+          ],
+          "weaknesses": [
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+          ],
+          "opportunities": [
+            "The strategy will unlock growth, competition, and innovation in the UK economy.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+          ],
+          "threats": [
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+          ]
+        },
+        "priority": {
+          "urgency": 1,
+          "impact": 5,
+          "consequences": 5,
+          "policy_advancement": 5,
+          "opportunity": 5,
+          "monitoring_need": 1,
+          "strategic_significance": 5,
+          "implementation_risk": 1,
+          "novelty": 5,
+          "evidence_strength": 1,
+          "rationale": "The UK Smart Data Strategy is a significant development that sets out government actions to unlock growth, competition, and innovation through secure, trusted data sharing across the economy. This strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+        },
+        "policy_or_market_implications": [
+          "The strategy will unlock growth, competition, and innovation in the UK economy.",
+          "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+          "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+          "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+        ],
+        "key_claims": [
+          {
+            "claim": "The UK Smart Data Strategy sets out government actions to unlock growth, competition, and innovation through secure, trusted data sharing across the economy.",
+            "claim_type": "reported_fact",
+            "evidence_note": ""
+          },
+          {
+            "claim": "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+            "claim_type": "reported_fact",
+            "evidence_note": ""
+          }
+        ],
+        "source_perspective": "The UK Smart Data Strategy is a significant development that sets out government actions to unlock growth, competition, and innovation through secure, trusted data sharing across the economy. This strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+        "tensions_or_tradeoffs": [
+          "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+          "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+          "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence.",
+          "The strategy will involve schemes that maximize benefits for customers and work well with the UK's wider data ecosystem, including artificial intelligence."
+        ],
+        "follow_up_questions": [
+          "What are the specific schemes that will be implemented under the strategy?",
+          "How will the strategy ensure secure, trusted data sharing across the economy?",
+          "What are the potential benefits for customers and the wider economy?",
+          "How will the strategy work well with the UK's wider data ecosystem, including artificial intelligence?",
+          "What are the potential risks and challenges of implementing the strategy?",
+          "How will the strategy be monitored and evaluated?",
+          "What are the potential long-term impacts of the strategy on the UK's economy and society?"
+        ],
+        "hashtags": [
+          "#AIxSmartData",
+          "#Opportunity",
+          "#Strategic",
+          "#Threat"
+        ],
+        "tags": [
+          "#SmartData",
+          "#AI",
+          "#PolicyGap",
+          "#Opportunity",
+          "#Threat",
+          "#Monitor",
+          "#Urgent",
+          "#Strategic",
+          "#ImplementationRisk",
+          "#RegulatoryChange",
+          "#ConsumerProtection",
+          "#Interoperability",
+          "#DigitalIdentity",
+          "#Consent",
+          "#Competition",
+          "#EconomicSecurity",
+          "#OpenFinance",
+          "#OpenProperty",
+          "#Energy",
+          "#Transport",
+          "#Trade",
+          "#Fraud",
+          "#International",
+          "#TrustFramework",
+          "#DataPortability"
+        ],
+        "confidence": "high"
+      },
+      "final_score": 76.62,
+      "priority_score": 64.03,
       "mode": "weekly"
     },
     {
@@ -180,9 +361,9 @@
         "source_name": "Raidiam news and insights",
         "author": "What is identity chained authorisation",
         "published_at": "2026-09-22T00:00:00Z",
-        "discovered_at": "2026-09-28T15:24:42.392559Z",
+        "discovered_at": "2026-10-05T15:59:28.838676Z",
         "discovery_method": "index:industry_index",
-        "heuristic_score": 84.62,
+        "heuristic_score": 82.61,
         "matched_terms": [
           "AI",
           "trust_identity",
@@ -197,11 +378,11 @@
         "relevance_score": 4,
         "relevance_tier": "medium",
         "primary_category": "AI",
-        "bottom_line": "The article discusses the security of AI agents in financial institutions, highlighting the need for consistent identity and access management across multiple teams and domains. This is a significant concern for the UK Smart Data programme as it impacts the interoperability and data portability of AI-enabled services.",
-        "summary": "The article discusses the security of AI agents in financial institutions, highlighting the need for consistent identity and access management across multiple teams and domains. This is a significant concern for the UK Smart Data programme as it impacts the interoperability and data portability of AI-enabled services.",
-        "why_it_matters": "The article highlights the importance of consistent identity and access management across multiple teams and domains, which is a key concern for the UK Smart Data programme. This is because it impacts the interoperability and data portability of AI-enabled services, which are essential for the programme's goals of enabling secure and trusted data sharing.",
-        "government_smart_data_perspective": "The article suggests that the UK Smart Data programme should consider the security of AI agents in financial institutions as a key concern for the programme's goals of enabling secure and trusted data sharing. This is because it impacts the interoperability and data portability of AI-enabled services, which are essential for the programme's goals of enabling secure and trusted data sharing.",
-        "smart_data_ai_link": "https://www.raidiam.com/insights/agent-api-security-identity-chaining",
+        "bottom_line": "The article discusses the security challenges of agent APIs in the context of AI, highlighting the need for consistent identity and access patterns across multiple teams and domains. This is relevant to the UK Smart Data programme as it addresses the need for secure and trusted data sharing, which is a key component of the programme's objectives.",
+        "summary": "The article discusses the security challenges of agent APIs in the context of AI, highlighting the need for consistent identity and access patterns across multiple teams and domains. This is relevant to the UK Smart Data programme as it addresses the need for secure and trusted data sharing, which is a key component of the programme's objectives.",
+        "why_it_matters": "The article highlights the importance of consistent identity and access patterns across multiple teams and domains, which is crucial for secure and trusted data sharing. This is relevant to the UK Smart Data programme as it addresses the need for secure and trusted data sharing, which is a key component of the programme's objectives.",
+        "government_smart_data_perspective": "The article discusses the security challenges of agent APIs in the context of AI, highlighting the need for consistent identity and access patterns across multiple teams and domains. This is relevant to the UK Smart Data programme as it addresses the need for secure and trusted data sharing, which is a key component of the programme's objectives.",
+        "smart_data_ai_link": "The article discusses the security challenges of agent APIs in the context of AI, highlighting the need for consistent identity and access patterns across multiple teams and domains. This is relevant to the UK Smart Data programme as it addresses the need for secure and trusted data sharing, which is a key component of the programme's objectives.",
         "pestle": {
           "political": [],
           "economic": [],
@@ -218,20 +399,20 @@
         },
         "priority": {
           "urgency": 2,
-          "impact": 4,
-          "consequences": 3,
-          "policy_advancement": 2,
+          "impact": 3,
+          "consequences": 4,
+          "policy_advancement": 3,
           "opportunity": 2,
           "monitoring_need": 2,
-          "strategic_significance": 2,
+          "strategic_significance": 3,
           "implementation_risk": 2,
-          "novelty": 2,
+          "novelty": 4,
           "evidence_strength": 3,
-          "rationale": "The article discusses the security of AI agents in financial institutions, highlighting the need for consistent identity and access management across multiple teams and domains. This is a significant concern for the UK Smart Data programme as it impacts the interoperability and data portability of AI-enabled services. The article suggests that the UK Smart Data programme should consider the security of AI agents in financial institutions as a key concern for the programme's goals of enabling secure and trusted data sharing. This is because it impacts the interoperability and data portability of AI-enabled services, which are essential for the programme's goals of enabling secure and trusted data sharing."
+          "rationale": "The article discusses the security challenges of agent APIs in the context of AI, highlighting the need for consistent identity and access patterns across multiple teams and domains. This is relevant to the UK Smart Data programme as it addresses the need for secure and trusted data sharing, which is a key component of the programme's objectives."
         },
         "policy_or_market_implications": [],
         "key_claims": [],
-        "source_perspective": "The article is a news and insights source, not an endorsement or opposition to any source or organisation.",
+        "source_perspective": "The article discusses the security challenges of agent APIs in the context of AI, highlighting the need for consistent identity and access patterns across multiple teams and domains. This is relevant to the UK Smart Data programme as it addresses the need for secure and trusted data sharing, which is a key component of the programme's objectives.",
         "tensions_or_tradeoffs": [],
         "follow_up_questions": [],
         "hashtags": [],
@@ -263,8 +444,8 @@
         ],
         "confidence": "high"
       },
-      "final_score": 44.19,
-      "priority_score": 47.23,
+      "final_score": 47.26,
+      "priority_score": 52.42,
       "mode": "weekly"
     }
   ]
