@@ -1,6 +1,6 @@
 {
   "mode": "weekly",
-  "generated_at": "2026-10-12T17:14:18.455864+00:00",
+  "generated_at": "2026-10-19T15:08:47.328726+00:00",
   "synthesis": {
     "mode": "weekly",
     "headline": "Smart Data + AI: Key Developments and Policy Gaps",
@@ -45,7 +45,7 @@
         "source_name": "UK Smart Data collection",
         "author": "",
         "published_at": "2024-05-09T00:00:00Z",
-        "discovered_at": "2026-10-12T16:44:55.911626Z",
+        "discovered_at": "2026-10-19T14:39:27.664053Z",
         "discovery_method": "index:official_collection",
         "heuristic_score": 82.0,
         "matched_terms": [
@@ -216,7 +216,7 @@
         "source_name": "UK Smart Data collection",
         "author": "",
         "published_at": "2026-03-26T00:00:00Z",
-        "discovered_at": "2026-10-12T16:44:58.503296Z",
+        "discovered_at": "2026-10-19T14:39:30.408976Z",
         "discovery_method": "index:official_collection",
         "heuristic_score": 100.0,
         "matched_terms": [

@@ -1,6 +1,6 @@
 # Smart Data & AI Radar — Weekly Briefing
 
-Generated: **2026-10-12 17:14 UTC**
+Generated: **2026-10-19 15:08 UTC**
 
 > Analytical lens: UK Government / Smart Data programme. Sources are monitored for insight, not endorsement. Facts, source viewpoints and radar analysis are kept distinct.
 
